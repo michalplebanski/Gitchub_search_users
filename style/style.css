@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: grey;
+}
+
+.root > div {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+form {
+	height: 10vh;
+	width: 40vw;
+	margin: 5vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+label {
+	font-size: 3vh;
+	color: #fff;
+	border-bottom: 0.3vh solid #000;
+}
+
+input {
+	height: 4vh;
+	width: 25vw;
+	padding-left: 1vw;
+}
+
+.container {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.user {
+	margin: 3vh 3vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	padding-top: 1vh;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.5;
+}
