@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
 	box-sizing: border-box;
 }
@@ -6,11 +8,12 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #843b5a;
+	font-family: 'Lato', sans-serif;
 }
 
 .root > div {
-	height: 100vh;
-	width: 100vw;
+	min-height: 100vh;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -18,7 +21,7 @@ body {
 }
 
 form {
-	height: 10vh;
+	min-height: 10vh;
 	width: 40vw;
 	margin: 5vh 0;
 	display: flex;
@@ -28,15 +31,18 @@ form {
 }
 
 label {
-	font-size: 3vh;
 	color: #fff;
-	border-bottom: 0.3vh solid #000;
+	font-size: 5vh;
+	border-bottom: 0.3vh solid #ff0000;
 }
 
 input {
-	height: 4vh;
+	height: 5vh;
 	width: 25vw;
+	margin: 3vh 0;
 	padding-left: 1vw;
+	border: none;
+	border-radius: 1vh;
 }
 
 .container {
